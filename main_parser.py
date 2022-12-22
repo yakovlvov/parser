@@ -1,7 +1,5 @@
 import requests
-import time
 import csv
-from tqdm import tqdm, tqdm_gui, trange
 
 def take_100_users():
     token = input('Введите токен:')
